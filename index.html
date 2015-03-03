@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Fizz Buzz</title>
+    <!-- Meta <-->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="app.js" type="text/javascript"></script>
+    <style>
+        #myDiv {
+            margin: 2em 5em;
+        }
+        
+        li {
+            list-style: none;
+            width: 100px;
+            margin: 6px 0;
+        }
+        
+        .fb {
+            color: red;
+            font-weight: bold;
+            border: 1px solid grey;
+            border-radius: 2px
+        }
+        
+        .f {
+            color: green;
+            font-weight: bold;
+        }
+        
+        .b {
+            color: blue;
+            font-weight: bold;
+        }
+        
+        .error {
+            margin: 10px 0;
+            color: #f00;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="myDiv">
+        <input type="textbox" id="myText">
+        <input type="submit" value="FizzBuzz" id="fb">
+        <div class="error"></div>
+        <ul id="myList"></ul>
+    </div>
+</body>
+
+</html>
